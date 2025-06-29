@@ -1,0 +1,23 @@
+# requirements.txt
+streamlit
+torch
+torchvision
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python-headless
+Pillow
+captum  # <-- ENSURE THIS LINE IS PRESENT
+
+
+
+# streamlit
+# torch
+# torchvision
+# pandas
+# scikit-learn
+# matplotlib
+# seaborn
+# opencv-python-headless
+# Pillow
