@@ -1,3 +1,7 @@
+# Author: Hussain Samdani
+# Project: fetalNet Classifier (FYP 2025)
+# GitHub: https://github.com/Hussain-Innovator
+
 import streamlit as st
 import pandas as pd
 from PIL import Image
