@@ -77,7 +77,7 @@ Project Structure
 
 ## Author
 
-**Hussain Samdani**  
+**Hussain**  
 BS Software Engineering  
 Iqra University, 2021–2025  
 [GitHub](https://github.com/Hussain-Innovator)  
