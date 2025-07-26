@@ -11,7 +11,6 @@ st.markdown(
     "We trained several variations of the model, each with a specific part removed, and compared their performance to our final model."
 )
 
-# --- Data from your final analysis file ---
 data = {
     "Model Variant": ["Full Model (Fine-Tuned)", "Full Model (Baseline)", "SE Block Removed", "Second Conv Block Removed", "MaxPool ➝ AvgPool"],
     "Test Accuracy (%)": [93.01, 91.77, 92.00, 92.00, 92.00],

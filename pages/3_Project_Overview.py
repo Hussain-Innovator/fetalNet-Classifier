@@ -22,23 +22,19 @@ This project presents an end-to-end deep learning solution for the classificatio
 - **Best Macro F1 Score:** **0.91**
 """)
 
-# --- NEW: Code to display a local image ---
 try:
-    # Open the image file from your assets folder
     image = Image.open("app_assets/overview_image.png")
-    # Display the image
+
     st.image(image, caption="Example of Fetal Ultrasound Scans Used in This Project")
 except FileNotFoundError:
     st.warning("Could not find the example image. Make sure it's in the 'app_assets' folder.")
 
-# --- NEW: Section to display the model architecture diagram ---
 st.header("Model Architecture")
 st.markdown("Our model classifies fetal ultrasound images into six anatomical planes using a MobileNetV2-based deep learning model enhanced with a squeeze-and-excitation (SE) block. To ensure transparency, it integrates Explainable AI techniques—Grad-CAM, Saliency Map, Integrated Gradients, and Guided Backpropagation. The model is deployed as an interactive web app using Streamlit for real-time predictions and visual explanations")
 
 try:
-    # Open the diagram image file from your assets folder
     image = Image.open("app_assets/model_architecture.PNG")
-    # Display the image
+    
     st.image(image, caption="Block Diagram of the FetalNet Model Architecture")
 except FileNotFoundError:
     st.warning("Could not find the model architecture diagram. Make sure 'model_architecture.png' is in the 'app_assets' folder.")

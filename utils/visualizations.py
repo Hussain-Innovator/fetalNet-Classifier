@@ -19,7 +19,4 @@ def generate_grad_cam_overlay(model, img_tensor, original_image, class_idx):
 
 def plot_confusion_matrix(y_true, y_pred):
     """Generates a confusion matrix plot using Matplotlib/Seaborn."""
-    # --- Your confusion matrix plotting code goes here ---
-    # This will typically use sklearn.metrics.confusion_matrix
-    # and seaborn.heatmap to display it.
     pass

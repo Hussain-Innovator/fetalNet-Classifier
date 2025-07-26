@@ -33,10 +33,8 @@ with col2:
 
 st.markdown("---")
 
-# --- NEW: Section to display the combined 20-epoch training graph ---
 st.header("Full Training & Fine-Tuning History (20 Epochs)")
 
-# Data from your initial training and fine-tuning runs
 history_data = {
     'train_acc': [83.95, 90.13, 92.44, 94.24, 95.09, 96.14, 97.05, 97.64, 97.72, 97.89, 96.88, 97.94, 98.26, 98.48, 98.26, 98.93, 98.86, 99.10, 99.15, 99.18],
     'val_acc': [90.22, 92.05, 91.99, 91.72, 92.69, 91.24, 92.37, 92.53, 91.94, 92.21, 92.80, 92.91, 93.18, 92.80, 93.18, 93.01, 92.91, 93.07, 93.18, 93.34],
@@ -45,7 +43,6 @@ history_data = {
 }
 epochs_range = range(1, 21)
 
-# Create the figure with two subplots
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 7))
 
 # Plot 1: Loss History
