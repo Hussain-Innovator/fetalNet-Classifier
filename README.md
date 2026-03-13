@@ -74,7 +74,8 @@ Project Structure
     ├── model_architecture.PNG     # Visual of the model
     └── overview_image.png         # Summary or dashboard image
 
-
+| To Run Live The Application For Test On Different Ultrasound Images, Please Visit The Given URL:
+  https://fetalnet-classifier-hm.streamlit.app
 ## Author
 
 **Hussain**  
