@@ -91,7 +91,3 @@ if model:
                         st.image(viz, caption="Guided Backpropagation Explanation", use_container_width=True)
 else:
     st.warning("The model could not be loaded. Please check the file path in the code.")
-
-
-
-
