@@ -2,6 +2,8 @@
 import torch
 import streamlit as st
 from model.fetalnet import FetalNet
+# prediction.py
+from pages.Public_Test import some_func   # ❌ circular import
 
 @st.cache_resource
 def load_model(model_path):
